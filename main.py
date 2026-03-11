@@ -14,7 +14,7 @@ EMAIL_TO = os.environ.get("EMAIL_TO", "")
 EMAIL_FROM = os.environ.get("EMAIL_FROM", "")
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD", "")
 
-client = anthropic.Anthropic(api_key="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")
+client = anthropic.Anthropic(api_key="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")
 SYSTEM_PROMPT = """Eres UldeAgent, un agente de prospección inteligente para Barranquilla, Colombia.
 Tu misión es buscar negocios locales (restaurantes, tiendas, clínicas, talleres, etc.) que probablemente 
 NO tengan página web o necesiten servicios de IA.
